@@ -33,7 +33,7 @@ const Services = () => (
         />
       </div>
       <div className="label">
-        <h6 className="text-4xl pb-6 font-sans font-bold text-red-600">Roaches</h6>
+        <h6 className="text-4xl font-sans font-bold text-red-600">Roaches</h6>
       </div>
     </div>
     <div className="service flex items-center flex-col justify-center">
@@ -45,7 +45,7 @@ const Services = () => (
         />
       </div>
       <div className="label">
-        <h6 className="text-4xl pb-6 font-sans font-bold text-red-600">Rats & Mice</h6>
+        <h6 className="text-4xl font-sans font-bold text-red-600">Rats & Mice</h6>
       </div>
     </div>
     <div className="service flex items-center flex-col justify-center">
@@ -57,7 +57,7 @@ const Services = () => (
         />
       </div>
       <div className="label">
-        <h6 className="text-4xl pb-6 font-sans font-bold text-red-600">Termites</h6>
+        <h6 className="text-4xl font-sans font-bold text-red-600">Termites</h6>
       </div>
     </div>
     </div>
