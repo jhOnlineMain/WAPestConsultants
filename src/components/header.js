@@ -6,10 +6,9 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header
-  className="flex flex-col items-center justify-center md:flex-row"
+  className="flex p-2 w-100 left-0 top-0 right-0 fixed shadow-md flex-col items-center justify-center md:flex-row"
     style={{
       margin: `0 auto`,
-      padding: `var(--space-4) var(--size-gutter)`,
       display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
@@ -21,14 +20,13 @@ const Header = ({ siteTitle }) => (
 
     <StaticImage
       alt="WA-Pest logo"
-      height={100}
+      height={88}
       style={{ margin: 0 }}
       src="../images/WAPest-logo-horiz-light.png"
     />
     </Link>
-    <button href="tel:0499904014" style={{
-      borderRadius:'10px',
-      padding: '0.5rem 1.5rem'
+    <button href="tel:0499904014" className="bg-red-600 w-auto px-5 py-2 text-white font-bold font-sans text-3xl flex items-center justify-center" style={{
+      borderRadius:'10px'
     }}>
       <div className="button-text" style={{
       display:'flex',
