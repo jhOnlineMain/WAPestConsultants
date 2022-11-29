@@ -178,6 +178,41 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    <section className="pesticides">
+      <div className="title"> 
+        <h6>Our Products</h6>
+      </div>
+      <div className="products">
+        <div className="product">
+          <StaticImage
+          src="../images/products/p1.png"
+          height={60}
+          alt="product"
+          />
+        </div>
+        <div className="product">
+          <StaticImage
+          src="../images/products/p2.png"
+          height={60}
+          alt="product"
+          />
+        </div>
+        <div className="product">
+          <StaticImage
+          src="../images/products/p3.png"
+          height={60}
+          alt="product"
+          />
+        </div>
+        <div className="product">
+          <StaticImage
+          src="../images/products/p4.png"
+          height={60}
+          alt="product"
+          />
+        </div>
+      </div>
+    </section>
     <section className="cta-fw">
       <div className="key-selling-points">
         <div className="ksp-title">
@@ -291,41 +326,7 @@ const IndexPage = () => (
         </form> 
       </div>
     </section>
-    <section className="pesticides">
-      <div className="title"> 
-        <h6>Our Products</h6>
-      </div>
-      <div className="products">
-        <div className="product">
-          <StaticImage
-          src="../images/products/p1.png"
-          height={60}
-          alt="product"
-          />
-        </div>
-        <div className="product">
-          <StaticImage
-          src="../images/products/p2.png"
-          height={60}
-          alt="product"
-          />
-        </div>
-        <div className="product">
-          <StaticImage
-          src="../images/products/p3.png"
-          height={60}
-          alt="product"
-          />
-        </div>
-        <div className="product">
-          <StaticImage
-          src="../images/products/p4.png"
-          height={60}
-          alt="product"
-          />
-        </div>
-      </div>
-    </section>
+    
   </Layout>
 )
 
