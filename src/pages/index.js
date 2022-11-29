@@ -5,7 +5,7 @@ import { ctaButton } from "../components/header"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HomeHero from "../components/HomeHero"
-import Testimonials from "../components/testimonials"
+import TestimonialsNew from "../components/testimonialnew"
 import Services from "../components/services"
 import * as styles from "../components/index.module.css"
 
@@ -15,7 +15,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
   <HomeHero />
-  <Testimonials />
+  <TestimonialsNew />
   <Services />
     <section className="specials">
       <div className="offer">

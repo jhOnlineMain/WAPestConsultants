@@ -10,7 +10,9 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const Services = () => (
   <section className="services">
-    <div className="service">
+    <div className="container mx-auto">
+    <div className="columns-4">
+    <div className="service flex items-center flex-col justify-center">
       <div className="img-wrap">
         <StaticImage
           src="../images/ant.png"
@@ -22,7 +24,7 @@ const Services = () => (
         <h6>Ants</h6>
       </div>
     </div>
-    <div className="service">
+    <div className="service flex items-center flex-col justify-center">
       <div className="img-wrap">
         <StaticImage
           src="../images/roach.png"
@@ -34,7 +36,7 @@ const Services = () => (
         <h6>Roaches</h6>
       </div>
     </div>
-    <div className="service">
+    <div className="service flex items-center flex-col justify-center">
       <div className="img-wrap">
         <StaticImage
           src="../images/rat.png"
@@ -46,7 +48,7 @@ const Services = () => (
         <h6>Rats & Mice</h6>
       </div>
     </div>
-    <div className="service">
+    <div className="service flex items-center flex-col justify-center">
       <div className="img-wrap">
         <StaticImage
           src="../images/Termite.png"
@@ -57,6 +59,8 @@ const Services = () => (
       <div className="label">
         <h6>Termites</h6>
       </div>
+    </div>
+    </div>
     </div>
   </section>
 )

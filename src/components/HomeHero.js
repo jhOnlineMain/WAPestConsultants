@@ -11,8 +11,8 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const HomeHero = () => (
   <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
             <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-                <span className="block xl:inline">Perth's Best</span>{' '} <br />
+              <h1 className="text-4xl tracking-tight font-extrabold flex flex-col text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+                <span className="block xl:inline">Perth's Best</span>{' '}
                 <span className="block text-red-600 xl:inline">Pest Control</span>
               </h1>
               <p className="mt-3 max-w-md mx-auto text-lg text-red-700 font-bold font-sans sm:text-xl md:mt-5 md:max-w-3xl">

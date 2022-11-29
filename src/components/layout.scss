@@ -6,20 +6,7 @@
 #gatsby-focus-wrapper {
   background-color:#f6f6f8;
 }
-section {
-  margin: 5rem 0;
-  padding: 0 12rem;
-  z-index:5;
-  position:static;
-}
 
-// h4 {
-//   font-size:3rem;
-//   font-weight: bolder;
-//   margin-top: unset;
-//   margin-bottom: 0.5rem;
-//   color:rgb(0, 0, 0);
-// }
 h6 {
   margin: unset;
   color:rgb(0, 0, 0);
@@ -109,18 +96,12 @@ grid-template: 4fr 2fr / 6fr 4fr;
   }
 }
 .services {
-  display:grid;
-  grid-template: 1fr / repeat(4,1fr);
-  padding-top:3rem;
-  padding-bottom:3rem;
   .service {
-    display:grid;
-    grid-template: 80% 20% / 1fr;
     .img-wrap {
       grid-row:1;
       place-self: center;
     }
-    .label{ 
+    .label{
         grid-row:2;
         place-self:center;
       h6 {
@@ -197,7 +178,7 @@ grid-template: 4fr 2fr / 6fr 4fr;
     .form-title {
       padding:0.5rem;
       text-align: center;
-  
+
       h6 {
         font-size: 2rem;
       }
@@ -206,7 +187,7 @@ grid-template: 4fr 2fr / 6fr 4fr;
     form {
       display:flex;
       flex-flow: column nowrap;
-      
+
       .details {
         display:inherit;
         flex-flow:inherit;
@@ -234,7 +215,7 @@ grid-template: 4fr 2fr / 6fr 4fr;
             padding:0.1rem;
           }
         }
-      }  
+      }
       .submit-wrap {
         display: flex;
         flex-flow: row nowrap;
@@ -256,7 +237,7 @@ grid-template: 4fr 2fr / 6fr 4fr;
       font-size:1.5rem;
       font-size: 2rem;
       text-align: center;
-  
+
     }
   ul {
     padding: 2.5rem;
@@ -274,7 +255,7 @@ grid-template: 4fr 2fr / 6fr 4fr;
   }
   }
   }
-  
+
 .pesticides {
   display:grid;
   grid-template:20% 80% / 1fr;
