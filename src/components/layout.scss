@@ -1,6 +1,10 @@
 /*Ordinary */
-.___gatsby {
-  background-color:#ededf0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#gatsby-focus-wrapper {
+  background-color:#f6f6f8;
 }
 section {
   margin: 5rem 0;
@@ -233,12 +237,15 @@ grid-template: 4fr 2fr / 6fr 4fr;
   ul {
     padding: 2.5rem;
 
-    li span {
-      font-weight: bolder;
-      font-size:1.2rem;
-    }
-    li span:first-child {
-      margin-right: 10px;
+    li {
+      margin-bottom: 1rem;
+      span {
+        font-weight: bolder;
+        font-size:1.2rem;
+      }
+      span:first-child {
+        margin-right: 10px;
+      }
     }
   }
   }
