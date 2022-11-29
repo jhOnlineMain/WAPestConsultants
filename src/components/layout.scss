@@ -4,7 +4,7 @@
 }
 section {
   margin: 5rem 0;
-  padding: 0 3rem;
+  padding: 0 12rem;
 }
 
 h4 {
@@ -83,7 +83,8 @@ grid-template: 4fr 2fr / 6fr 4fr;
 .services {
   display:grid;
   grid-template: 1fr / repeat(4,1fr);
-  padding:3rem 0;
+  padding-top:3rem;
+  padding-bottom:3rem;
   .service {
     display:grid;
     grid-template: 80% 20% / 1fr;
