@@ -9,18 +9,42 @@
 section {
   margin: 5rem 0;
   padding: 0 12rem;
+  z-index:5;
+  position:static;
 }
 
-h4 {
-  font-size:3rem;
-  margin-top: unset;
-  margin-bottom: 0.5rem;
-}
+// h4 {
+//   font-size:3rem;
+//   font-weight: bolder;
+//   margin-top: unset;
+//   margin-bottom: 0.5rem;
+//   color:rgb(0, 0, 0);
+// }
 h6 {
   margin: unset;
+  color:rgb(0, 0, 0);
+}
+strong {
+  color:rgb(0,0,0);
 }
 ul {
   list-style: none;
+}
+button {
+  background-color: lightgray;
+  span:first-child {
+    position: relative;
+    top: 6px;
+    left: 2px;
+
+  }
+}
+button:hover {
+  background-color: gray;
+}
+header {
+  z-index:10;
+  position: relative;
 }
 .hero {
   width: 100%;
@@ -31,17 +55,17 @@ grid-template: 4fr 2fr / 6fr 4fr;
     grid-row:2;
     grid-column: 1;
     place-self: center;
+    position: static;
+    //z-index:5;
   }
   .hero-text {
     padding:1rem;
-
-    h4 {
-      font-size:3em;
-    }
-    strong {
-      line-height: 2.2em;
-      font-size:1.8em;
-    }
+    position: static;
+    //z-index:5;
+  }
+  .hero-graphic {
+    position: static;
+   // z-index:5;
   }
 }
 .testimonials {

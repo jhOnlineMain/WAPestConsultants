@@ -11,20 +11,29 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <section className="hero">
-      <div className="hero-text">
-        <h4>Perth's pest specialist</h4>
-        <strong>Keeping your home free from pest's with a professional & prompt service</strong>
+    <section className="hero relative overflow-hidden mt-0 py-6">
+      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-50 h-full w-full z-10"></div>
+    <div className="absolute inset-0">
+                  <StaticImage
+                    className="h-full w-full object-cover"
+                    src="../images/WAPest-hero.png"
+                    alt=""
+                    layout="fullWidth"
+                    //height={400}
+                    transformOptions={{fit:'inside'}}
+                  />
+                  <div className="absolute inset-0 bg-gray-200 mix-blend-multiply" />
+                </div>
+      <div className="hero-text z-30">
+        <h4 className="text-5xl text-white font-bold font-sans z-20">
+          Perth's pest specialist
+        </h4>
+        <strong className="text-2xl text-white py-10 relative top-2">
+          Keeping your home free from pest's with a professional & prompt service
+        </strong>
       </div>
       <div className="hero-cta">
         {ctaButton('Call Now')}
-      </div>
-      <div className="hero-graphic">
-        <StaticImage 
-        src="../images/pest-target.png"
-        width={200}
-        alt="decoration"
-        />
       </div>
       
     </section>
