@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <Link to="/">
-    
+
     <StaticImage
       alt="WA-Pest logo"
       height={100}
@@ -51,7 +51,7 @@ const Header = ({ siteTitle }) => (
           0499904014
         </span>
       </div>
-    </button> 
+    </button>
   </header>
 )
 
@@ -82,11 +82,11 @@ export function ctaButton(label) {
         fontSize:'18px',
         marginLeft: '4px',
       }}>
-       {label || '0499904014'} 
+       {label || '0499904014'}
       </span>
 
     </div>
-  </button> 
+  </button>
   )
 }
 

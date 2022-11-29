@@ -4,6 +4,9 @@ import { StaticImage } from "gatsby-plugin-image"
 import { ctaButton } from "../components/header"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import HomeHero from "../components/HomeHero"
+import Testimonials from "../components/testimonials"
+import Services from "../components/services"
 import * as styles from "../components/index.module.css"
 
 
@@ -11,150 +14,9 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <section className="hero relative overflow-hidden mt-0 py-6">
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-50 h-full w-full z-10"></div>
-    <div className="absolute inset-0">
-                  <StaticImage
-                    className="h-full w-full object-cover"
-                    src="../images/WAPest-hero.png"
-                    alt=""
-                    layout="fullWidth"
-                    //height={400}
-                    transformOptions={{fit:'inside'}}
-                  />
-                  <div className="absolute inset-0 bg-gray-200 mix-blend-multiply" />
-                </div>
-      <div className="hero-text z-30">
-        <h4 className="text-5xl text-white font-bold font-sans z-20">
-          Perth's pest specialist
-        </h4>
-        <strong className="text-2xl text-white py-10 relative top-2">
-          Keeping your home free from pest's with a professional & prompt service
-        </strong>
-      </div>
-      <div className="hero-cta">
-        {ctaButton('Call Now')}
-      </div>
-      
-    </section>
-    <section className="testimonials">
-    <div className="testim-wrap">
-        <div className="block-quote">
-          <blockquote>
-           "Michael was super professional and did a very thorough job. He went into a lot of detail, more than I have seen other companies do that we have used in the past. Very affordable for the work he carried out. I'll happily continue to use this company moving forward for our business!"
-          </blockquote>
-        </div>
-        <div className="credit">
-          <span className="avatar-wrap">
-            <StaticImage
-              src="../images/test-Basilico.png"
-              alt="avatar"
-              className="avatar"
-              transformOptions={'inside'}
-              width={60}
-            />
-          </span>
-          <span className="name-wrap">
-           Basilico Pizzeria
-          </span>
-
-        </div>
-      </div>
-      <div className="testim-wrap">
-        <div className="block-quote">
-          <blockquote>
-          "Michael is great to work with and gave a great service. Highly recommend."
-          </blockquote>
-        </div>
-        <div className="credit">
-          <span className="avatar-wrap">
-            <StaticImage
-              src="../images/test-KaneHoward.png"
-              alt="avatar"
-              className="avatar"
-              transformOptions={'inside'}
-              width={60}
-            />
-          </span>
-          <span className="name-wrap">
-            Kane Howard 
-          </span>
-
-        </div>
-      </div>
-      <div className="testim-wrap">
-        <div className="block-quote">
-          <blockquote>
-          "Professional, friendly and thorough service highly recommended"
-          </blockquote>
-        </div>
-        <div className="credit">
-          <span className="avatar-wrap">
-            <StaticImage
-              src="../images/test-dt.png"
-              alt="avatar"
-              className="avatar"
-              transformOptions={'inside'}
-              width={60}
-            />
-          </span>
-          <span className="name-wrap">
-            D T
-          </span>
-
-        </div>
-      </div>
-    </section>
-    <section className="services">
-      <div className="service">
-        <div className="img-wrap">
-          <StaticImage
-            src="../images/ant.png"
-            width={100}
-            alt="ant"
-          />
-        </div>
-        <div className="label">
-          <h6>Ants</h6>
-        </div>
-      </div>
-      <div className="service">
-        <div className="img-wrap">
-          <StaticImage
-            src="../images/roach.png"
-            width={120}
-            alt="roach"
-          />
-        </div>
-        <div className="label">
-          <h6>Roaches</h6>
-        </div>
-      </div>
-      <div className="service">
-        <div className="img-wrap">
-          <StaticImage
-            src="../images/rat.png"
-            width={120}
-            alt="rat"
-          />
-        </div>
-        <div className="label">
-          <h6>Rats & Mice</h6>
-        </div>
-      </div>
-      <div className="service">
-        <div className="img-wrap">
-          <StaticImage
-            src="../images/Termite.png"
-            width={100}
-            alt="termite"
-          />
-        </div>
-        <div className="label">
-          <h6>Termites</h6>
-        </div>
-      </div>
-    </section>
+  <HomeHero />
+  <Testimonials />
+  <Services />
     <section className="specials">
       <div className="offer">
         <div className="label">
@@ -188,7 +50,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="pesticides">
-      <div className="title"> 
+      <div className="title">
         <h6>Our Products</h6>
       </div>
       <div className="products">
@@ -230,7 +92,7 @@ const IndexPage = () => (
         <ul>
           <li className="flex">
             <span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" 
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
               style={{
                 height:'2rem',
                 width:'2rem',
@@ -242,7 +104,7 @@ const IndexPage = () => (
         </li>
         <li className="flex">
             <span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" 
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
               style={{
                 height:'2rem',
                 width:'2rem',
@@ -254,7 +116,7 @@ const IndexPage = () => (
         </li>
         <li className="flex">
             <span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" 
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
               style={{
                 height:'2rem',
                 width:'2rem',
@@ -266,7 +128,7 @@ const IndexPage = () => (
         </li>
         <li className="flex">
             <span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" 
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
               style={{
                 height:'2rem',
                 width:'2rem',
@@ -324,10 +186,10 @@ const IndexPage = () => (
               {ctaButton('Call Now')}
             </div>
           </div>
-        </form> 
+        </form>
       </div>
     </section>
-    
+
   </Layout>
 )
 
