@@ -6,6 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header
+  className="flex flex-col items-center justify-center md:flex-row"
     style={{
       margin: `0 auto`,
       padding: `var(--space-4) var(--size-gutter)`,

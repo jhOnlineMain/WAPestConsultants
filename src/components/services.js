@@ -9,9 +9,9 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const Services = () => (
-  <section className="services">
+  <section className="services py-12">
     <div className="container mx-auto">
-    <div className="columns-4">
+    <div className="columns-1 lg:columns-4">
     <div className="service flex items-center flex-col justify-center">
       <div className="img-wrap">
         <StaticImage
@@ -21,10 +21,10 @@ const Services = () => (
         />
       </div>
       <div className="label">
-        <h6>Ants</h6>
+        <h6 className="text-4xl pb-6 font-sans font-bold text-red-600">Ants</h6>
       </div>
     </div>
-    <div className="service flex items-center flex-col justify-center">
+    <div className="service flex pb-6 items-center flex-col justify-center">
       <div className="img-wrap">
         <StaticImage
           src="../images/roach.png"
@@ -33,7 +33,7 @@ const Services = () => (
         />
       </div>
       <div className="label">
-        <h6>Roaches</h6>
+        <h6 className="text-4xl pb-6 font-sans font-bold text-red-600">Roaches</h6>
       </div>
     </div>
     <div className="service flex items-center flex-col justify-center">
@@ -45,7 +45,7 @@ const Services = () => (
         />
       </div>
       <div className="label">
-        <h6>Rats & Mice</h6>
+        <h6 className="text-4xl pb-6 font-sans font-bold text-red-600">Rats & Mice</h6>
       </div>
     </div>
     <div className="service flex items-center flex-col justify-center">
@@ -57,7 +57,7 @@ const Services = () => (
         />
       </div>
       <div className="label">
-        <h6>Termites</h6>
+        <h6 className="text-4xl pb-6 font-sans font-bold text-red-600">Termites</h6>
       </div>
     </div>
     </div>

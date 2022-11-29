@@ -104,12 +104,7 @@ grid-template: 4fr 2fr / 6fr 4fr;
     .label{
         grid-row:2;
         place-self:center;
-      h6 {
-        font-size: 2em;
-        font-weight: bold;
-        margin: unset;
-        padding: 2rem 0;
-      }
+    
     }
     .detail {
       list-style: georgian;
